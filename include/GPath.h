@@ -40,6 +40,8 @@ public:
 
     /**
      *  Return the bounds of all of the control-points in the path.
+     *
+     *  If there are no points, return {0, 0, 0, 0}
      */
     GRect bounds() const;
 
